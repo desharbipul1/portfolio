@@ -14,7 +14,7 @@ import { createFooter } from './components/common/Footer.js';
 
 // Initialize application
 document.addEventListener('DOMContentLoaded', () => {
-  // Setup animations first
+  // Setusp animations first
   setupLoaderAnimations();
   setupHomeAnimations();
   setupAboutAnimations();
