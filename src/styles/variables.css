@@ -1,0 +1,164 @@
+/* Design System: CSS Variables */
+:root {
+  /* Colors - Dark Cinematic Palette */
+  --background: #090A0B;
+  --surface: #101214;
+  --surface-elevated: #151719;
+
+  --foreground: #F1F1ED;
+  --foreground-secondary: #A6A7A3;
+  --foreground-muted: #686A68;
+
+  --border: rgba(241, 241, 237, 0.10);
+  --border-strong: rgba(241, 241, 237, 0.18);
+
+  --accent: #E6D7B8;
+  --accent-muted: rgba(230, 215, 184, 0.12);
+
+  --status: #D4C5A9;
+
+  /* New Vibrant Accent Colors */
+  --accent-cyan: #06D6FF;
+  --accent-cyan-dark: #0BA5D1;
+  --accent-purple: #A78BFA;
+  --accent-coral: #FF6B6B;
+  --accent-gold: #FBBF24;
+  --accent-emerald: #10B981;
+  --accent-pink: #F472B6;
+  --accent-blue: #3B82F6;
+
+  /* Gradient Colors */
+  --gradient-1: linear-gradient(135deg, #06D6FF 0%, #A78BFA 100%);
+  --gradient-2: linear-gradient(135deg, #FBBF24 0%, #FF6B6B 100%);
+  --gradient-3: linear-gradient(135deg, #10B981 0%, #06D6FF 100%);
+  --gradient-glow: radial-gradient(circle, rgba(6, 214, 255, 0.2) 0%, transparent 70%);
+
+  /* Chalk Theme Colors */
+  --chalk-primary: #f2f0e6;
+  --chalk-accent: #e6d7b8;
+  --chalk-secondary: #c9ccc4;
+  --chalk-board-bg: #111412;
+
+  /* Fonts */
+  --font-sans: 'Geist', 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Monaco', 'Courier New', monospace;
+  --font-chalk: 'Caveat', cursive;
+
+  /* Typography Scale */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.5rem;
+  --text-7xl: 4.5rem;
+
+  /* Font Weights */
+  --font-weight-thin: 100;
+  --font-weight-extralight: 200;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.75;
+  --line-height-loose: 2;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
+  /* Spacing Scale */
+  --spacing-2xs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+  --spacing-4xl: 80px;
+  --spacing-5xl: 96px;
+  --spacing-6xl: 120px;
+
+  /* Box Shadows - Elevation System */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-base: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+  --shadow-md: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 12px 24px 0 rgba(0, 0, 0, 0.25);
+  --shadow-xl: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
+  --shadow-2xl: 0 20px 40px 0 rgba(0, 0, 0, 0.35);
+
+  /* Box Shadows - Premium Elevation */
+  --shadow-elevation-1: 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+  --shadow-elevation-2: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 0 1px 0 rgba(0, 0, 0, 0.1);
+  --shadow-elevation-3: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 0 1px 0 rgba(0, 0, 0, 0.15);
+  --shadow-elevation-4: 0 12px 24px 0 rgba(0, 0, 0, 0.25), 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  --shadow-elevation-5: 0 16px 32px 0 rgba(0, 0, 0, 0.3), 0 0 2px 0 rgba(0, 0, 0, 0.25);
+
+  /* Box Shadows - Accent Glows */
+  --shadow-glow-cyan: 0 0 20px rgba(6, 214, 255, 0.3), 0 0 40px rgba(6, 214, 255, 0.1);
+  --shadow-glow-cyan-lg: 0 0 30px rgba(6, 214, 255, 0.4), 0 0 60px rgba(6, 214, 255, 0.2);
+  --shadow-glow-purple: 0 0 20px rgba(167, 139, 250, 0.3), 0 0 40px rgba(167, 139, 250, 0.1);
+  --shadow-glow-gold: 0 0 20px rgba(251, 191, 36, 0.3), 0 0 40px rgba(251, 191, 36, 0.1);
+  --shadow-glow-emerald: 0 0 20px rgba(16, 185, 129, 0.3), 0 0 40px rgba(16, 185, 129, 0.1);
+  --shadow-glow-coral: 0 0 20px rgba(255, 107, 107, 0.3), 0 0 40px rgba(255, 107, 107, 0.1);
+
+  /* Transitions */
+  --transition-fast: 150ms;
+  --transition-base: 250ms;
+  --transition-slow: 300ms;
+  --transition-slower: 500ms;
+
+  --easing-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --easing-premium: cubic-bezier(0.35, 0, 0.2, 1);
+  --easing-ease-smooth: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --easing-ease-premium: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* Border Radius */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+
+  /* Z-index Scale */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  --z-loader: 9999;
+}
+
+/* Dark theme adjustments */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+  }
+}
+
+/* Reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 1ms;
+    --transition-base: 1ms;
+    --transition-slow: 1ms;
+    --transition-slower: 1ms;
+  }
+}

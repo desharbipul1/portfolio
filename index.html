@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Character Encoding and Viewport -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags (SEO) -->
+    <title>Bipul Deshar | Software Engineer & Full-Stack Developer Portfolio</title>
+    <meta name="description" content="Explore the portfolio of Bipul Deshar, a full-stack software engineer specializing in .NET, C#, JavaScript, and scalable web architecture. View projects, experience, and skills." />
+    <meta name="keywords" content="software engineer, full-stack developer, .NET, C#, JavaScript, web development, portfolio, Bipul Deshar" />
+    <meta name="author" content="Bipul Deshar" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="theme-color" content="#090A0B" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://[YOUR_DOMAIN]" />
+    <meta property="og:title" content="Bipul Deshar | Software Engineer & Full-Stack Developer" />
+    <meta property="og:description" content="Full-stack software engineer portfolio showcasing projects in .NET, JavaScript, and web technologies. Open to collaborations and new opportunities." />
+    <meta property="og:image" content="https://[YOUR_DOMAIN]/og-image.png" />
+    <meta property="og:site_name" content="Bipul Deshar Portfolio" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://[YOUR_DOMAIN]" />
+    <meta name="twitter:title" content="Bipul Deshar | Full-Stack Software Engineer" />
+    <meta name="twitter:description" content="Check out my portfolio of web development projects and professional experience." />
+    <meta name="twitter:image" content="https://[YOUR_DOMAIN]/og-image.png" />
+    <meta name="twitter:creator" content="@[YOUR_TWITTER]" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://[YOUR_DOMAIN]" />
+    
+    <!-- Alternate Links for Internationalization (if needed) -->
+    <link rel="alternate" hreflang="en" href="https://[YOUR_DOMAIN]" />
+    
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    
+    <!-- Fonts with display=swap for better LCP -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Geist:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    
+    <!-- Stylesheet with Critical CSS -->
+    <link rel="stylesheet" href="/src/styles/globals.css" />
+    
+    <!-- JSON-LD Structured Data for Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Bipul Deshar",
+      "url": "https://[YOUR_DOMAIN]",
+      "description": "Full-stack software engineer specializing in web development",
+      "image": "https://[YOUR_DOMAIN]/user.jpg",
+      "jobTitle": "Software Engineer",
+      "sameAs": [
+        "https://www.linkedin.com/in/bipuldeshar/",
+        "https://github.com/[YOUR_GITHUB]/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Self-Employed"
+      },
+      "knowsAbout": [
+        ".NET",
+        "C#",
+        "JavaScript",
+        "React",
+        "Web Development",
+        "Full-Stack Development"
+      ]
+    }
+    </script>
+    
+    <!-- JSON-LD for Website -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "url": "https://[YOUR_DOMAIN]",
+      "name": "Bipul Deshar Portfolio",
+      "description": "Full-stack software engineer portfolio",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://[YOUR_DOMAIN]/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="app" class="bg-background-DEFAULT text-foreground-DEFAULT">
+      <!-- Loading State -->
+      <div id="loader" class="fixed inset-0 z-50 flex items-center justify-center bg-background-DEFAULT">
+        <div style="font-family: 'Caveat', cursive; font-weight: 400; font-style: italic; letter-spacing: 3px; font-size: 5rem; font-variation-settings: 'slnt' -20; transform: skewX(-10deg);">BIPUL</div>
+      </div>
+      
+      <!-- Skip to main content link for accessibility -->
+      <a href="#sections-container" class="skip-to-content">Skip to main content</a>
+      
+      <!-- Main Content -->
+      <main id="content" class="opacity-0">
+        <!-- Navigation Bar -->
+        <nav id="navbar" class="navbar-container" role="navigation" aria-label="Main navigation">
+          <!-- Logo / Brand -->
+          <a href="#home" class="navbar-logo" aria-current="page">
+            <span style="font-family: 'Caveat', cursive; font-weight: 400; letter-spacing: 2px; margin-left: 15px;">BIPUL</span>
+          </a>
+          
+          <!-- Desktop Navigation Menu -->
+          <ul class="navbar-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li>
+              <a href="https://linkedin.com/in/bipuldeshar" target="_blank" rel="noopener noreferrer" class="nav-link">
+                LinkedIn <span class="external-icon">↗</span>
+              </a>
+            </li>
+          </ul>
+          
+          <!-- Mobile Hamburger Button -->
+          <button 
+            id="mobile-menu-btn" 
+            class="hamburger-btn" 
+            aria-label="Toggle navigation menu"
+            aria-controls="mobile-menu"
+            aria-expanded="false">
+            <span class="hamburger-line line-1"></span>
+            <span class="hamburger-line line-2"></span>
+            <span class="hamburger-line line-3"></span>
+          </button>
+          
+          <!-- Mobile Menu (Hidden by default) -->
+          <ul id="mobile-menu" class="mobile-menu" role="navigation" aria-label="Mobile navigation" aria-hidden="true">
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+            <li><a href="#experience" class="mobile-nav-link">Experience</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+            <li>
+              <a href="https://linkedin.com/in/bipuldeshar" target="_blank" rel="noopener noreferrer" class="mobile-nav-link linkedin-link">
+                LinkedIn <span class="external-icon">↗</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        <!-- Page Sections Container -->
+        <div id="sections-container">
+          <!-- Sections will be injected here -->
+        </div>
+      </main>
+    </div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

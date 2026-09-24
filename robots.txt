@@ -1,0 +1,38 @@
+# Robots.txt for SEO Optimization
+# Allow search engines to crawl and index the entire site
+
+# Default rules for all robots
+User-agent: *
+Allow: /
+Allow: /src/
+Allow: /public/
+Allow: /sitemap.xml
+
+# Disallow private pages or admin areas (add as needed)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$ # Disallow JSON files from being indexed
+Disallow: /*?*sort= # Disallow sort parameters to prevent duplicate content
+Disallow: /*?*filter= # Disallow filter parameters
+
+# Crawl delay recommendations
+Crawl-delay: 1
+
+# Sitemap reference
+Sitemap: https://[YOUR_DOMAIN]/sitemap.xml
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
